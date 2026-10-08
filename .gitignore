@@ -1,0 +1,20 @@
+# Se incluyen los dos ZIP originales para la entrega académica.
+# Los datos derivados y modelos permanecen locales.
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/2_BDD_DATOS_ABIERTOS_ENEMDU_2025_CSV.zip
+!data/raw/ENEMDU_Tabulados_anual_2025-CSV.zip
+data/processed/
+resultados_enemdu/
+models/
+*.joblib
+*.pkl
+*.parquet
+*.csv.gz
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+.env
