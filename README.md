@@ -114,11 +114,5 @@ La sensibilidad se dibuja dentro de `sensibilidad_predictores`; las demás figur
 
 Validación interna de un solo año. La clave de vivienda representa posiciones del panel, no identidad longitudinal confirmada. El bootstrap mantiene fijos los modelos y no incorpora el diseño muestral completo del INEC. La calibración es diagnóstica; no se aplicó recalibración. Los umbrales exploratorios no representan una política institucional aprobada. Los odds ratios proceden de una logística regularizada, sin valores p ni intervalos de diseño; varias etiquetas utilizan catálogos INEC de años anteriores, circunstancia consignada en la tabla. Las tablas completas contienen categorías escasas que fueron excluidas de la selección editorial de odds ratios de la tesis; no deben interpretarse como asociaciones estables.
 
-## Subir a GitHub
-
-Descomprimir **solo el paquete exterior de esta entrega** y subir el contenido de la carpeta del proyecto, conservando su estructura, incluidos los dos ZIP de `data/raw/`. Los ZIP del INEC deben permanecer comprimidos: el script lee directamente el de microdatos.
-
-El `.gitignore` permite expresamente los dos ZIP originales y excluye datos procesados, predicciones individuales y modelos generados. Si se utiliza una carpeta de salida distinta a `resultados_enemdu`, añadirla también a `.gitignore`.
-
-
-No se asigna una licencia de redistribución nueva al código en esta entrega. El autor puede añadir la licencia que decida; los datos del INEC y los documentos de terceros conservan sus propias condiciones.
+## Autor
+Kevin Ariel Muñoz Arroba - Universidad de las Américas.
